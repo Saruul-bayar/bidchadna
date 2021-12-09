@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import {useEffect, useRef} from "react";
-import ActivityBoxData from '../../data/activityBox/activity-box.json';
+import IconBoxData from '../../data/iconBox/icon-box.json';
 import IconBox from '../../components/IconBox/IconBox.jsx';
 import SectionTitle from '../../components/SectionTitles/SectionTitle';
 import Parallax from 'parallax-js';
@@ -30,7 +30,7 @@ const ServiceIconBoxTwo = ({ classOption }) => {
 
                 <div className="row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 mb-n6 icon-box-shape-animation">
 
-                    {ActivityBoxData && ActivityBoxData.map((single, key) => {
+                    {IconBoxData && IconBoxData.map((single, key) => {
                         return(
                             <div key={key} className="col mb-6" data-aos="fade-up" data-aos-delay="300">
                                 <IconBox classOption="box-border" data={single} key={key} />
