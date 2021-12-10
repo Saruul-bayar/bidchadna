@@ -21,13 +21,13 @@ const Footer = () => {
                                 <div className="content">
 
 
-                                    <p><Link to={process.env.PUBLIC_URL + "/"}>(+976) 11-365555 , (+976) 99741916</Link></p>
-                                    <p><Link to={process.env.PUBLIC_URL + "/"}>info@bidchadna.mn</Link> </p>
+                                    <p><Link to={process.env.PUBLIC_URL + "/contact"}>(+976) 11-365555 , (+976) 99741916</Link></p>
+                                    <p><Link to={process.env.PUBLIC_URL + "/contact"}>info@bidchadna.mn</Link> </p>
                                 </div>
                                 <div className="footer-social-inline">
                                     <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter-square"></i></a>
-                                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-square"></i></a>
-                                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
+                                    <a href="https://www.facebook.com/BidchadnaMN" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-square"></i></a>
+                                    <a href="https://www.youtube.com/user/BidchadnaMN" target="_blank" rel="noopener noreferrer"><i className="fab fa-youtube"></i></a>
                                 </div>
                             </div>
                         </div>

@@ -15,7 +15,7 @@ const NavBar = () => {
                     </ul>
                 </li>
                 <li>
-                    <NavLink to={process.env.PUBLIC_URL + "/service"}><span className="menu-text">Сайн дурын хөтөлбөр</span></NavLink>
+                    <NavLink to={process.env.PUBLIC_URL + "/volunteer"}><span className="menu-text">Сайн дурын хөтөлбөр</span></NavLink>
                 </li>
                 <li>
                     <NavLink to={process.env.PUBLIC_URL + "/about"}><span className="menu-text">Бидний тухай</span></NavLink>

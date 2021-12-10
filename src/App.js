@@ -18,6 +18,7 @@ import News from "./pages/News";
 import Contact from './pages/Contact';
 import Article from "./pages/Article";
 import Activity from "./pages/Actvity";
+import Volunteer from "./pages/Volunteer";
 
 // CSS File Here
 import "aos/dist/aos.css";
@@ -58,6 +59,8 @@ function App() {
               <Route path={`${process.env.PUBLIC_URL + "/news"}`} component ={News} />
               <Route path={`${process.env.PUBLIC_URL + "/article"}`} component ={Article} />
               <Route path={`${process.env.PUBLIC_URL + "/activity"}`} component ={Activity} />
+
+              <Route path={`${process.env.PUBLIC_URL + "/volunteer"}`} component ={Volunteer} />
 
 
               {/* <Route component ={NotFound} /> */}
