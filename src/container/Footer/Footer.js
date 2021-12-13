@@ -25,7 +25,7 @@ const Footer = () => {
                                     <p><Link to={process.env.PUBLIC_URL + "/contact"}>info@bidchadna.mn</Link> </p>
                                 </div>
                                 <div className="footer-social-inline">
-                                    <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter-square"></i></a>
+                                    <a href="https://twitter.com/BidChadnaMN" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter-square"></i></a>
                                     <a href="https://www.facebook.com/BidchadnaMN" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-square"></i></a>
                                     <a href="https://www.youtube.com/user/BidchadnaMN" target="_blank" rel="noopener noreferrer"><i className="fab fa-youtube"></i></a>
                                 </div>

@@ -22,10 +22,23 @@ const IconBox = ({ data, classOption }) => {
                 <div className="desc">
                     <p>{data.desc}</p>
                 </div>
-                <Link to={data.link} className="link">{data.pageLink}</Link>
+                <Link to={process.env.PUBLIC_URL + `/activity-details/${data.id}`} className="link">{data.pageLink}</Link>
             </div>
         </div>
     )
+
+//     <div className="blog-3 col">
+//     <div className="thumbnail">
+//         <Link to={process.env.PUBLIC_URL + `/blog-details/${data.id}`} className="image"><img src={`${process.env.PUBLIC_URL}/${data.largeImage}`} alt="Blog Image" /></Link>
+//     </div>
+//     <div className="info">
+//         <h3 className="title"><Link to={process.env.PUBLIC_URL + `/blog-details/${data.id}`}>{data.title}</Link></h3>
+//         <div className="desc">
+//             <p>{data.excerpt}</p>
+//         </div>
+//         <Link to={process.env.PUBLIC_URL + `/blog-details/${data.id}`} className="btn btn-primary btn-hover-secondary mt-6">Цааш унших</Link>
+//     </div>
+// </div>
 }
 
 IconBox.propTypes = {
