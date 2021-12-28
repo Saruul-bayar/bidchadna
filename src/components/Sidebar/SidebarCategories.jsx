@@ -1,6 +1,7 @@
 import React from 'react';
 import {flatDeep, slugify, containsObject} from '../../utils';
 import BlogClassicData from '../../data/blog/BlogClassic.json';
+// import NewsData from '../../data/News/NewsData.json';
 import {Link} from "react-router-dom";
 
 const SidebarCategories = () => {

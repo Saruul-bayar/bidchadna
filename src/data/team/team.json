@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "image": "images/team/jargalsaikhan",
+        "image": "images/team/jargalsaikhan.jpg",
         "name": "Жаргалсайхан",
         "designation": "Project manager"
     },
@@ -19,7 +19,7 @@
     },
     {
         "id": 4,
-        "image": "images/team/otgontyua.jpg",
+        "image": "images/team/mend-orshikh.jpg",
         "name": "А.Мэнд-Орших",
         "designation": "Project manager"
     }

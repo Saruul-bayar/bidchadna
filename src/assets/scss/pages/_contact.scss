@@ -33,6 +33,10 @@
     background-color: $white;
     box-shadow: 0 0 40px rgba(51, 51, 51, 0.1);
     transition: $transition;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 200px;
     // Responsive
     @media #{$large-mobile}{
         padding: 25px 30px 30px;

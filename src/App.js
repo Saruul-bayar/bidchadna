@@ -3,8 +3,8 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import AOS from "aos";
 import NavScrollTop from './components/NavScrollTop';
 import HomeOne from './pages/HomeOne';
-import HomeTwo from './pages/HomeTwo';
-import HomeThree from './pages/HomeThree';
+// import HomeTwo from './pages/HomeTwo';
+// import HomeThree from './pages/HomeThree';
 import About from './pages/About';
 import Service from './pages/Service';
 import Work from './pages/Work';
@@ -19,6 +19,8 @@ import Contact from './pages/Contact';
 import Article from "./pages/Article";
 import Activity from "./pages/Actvity";
 import Volunteer from "./pages/Volunteer";
+import NewsDetails from "./pages/NewsDetails";
+import ActivityDetailsPage from "./pages/ActivityDetailsPage";
 
 // CSS File Here
 import "aos/dist/aos.css";
@@ -43,9 +45,9 @@ function App() {
         <NavScrollTop>
             <Switch>
               <Route path={`${process.env.PUBLIC_URL + "/"}`} exact component={HomeOne}/>
-              <Route path={`${process.env.PUBLIC_URL + "/home-one"}`} exact component={HomeOne}/>
-              <Route path={`${process.env.PUBLIC_URL + "/home-two"}`} component={HomeTwo}/>
-              <Route path={`${process.env.PUBLIC_URL + "/home-three"}`} component={HomeThree}/>
+              <Route path={`${process.env.PUBLIC_URL + "/home"}`} exact component={HomeOne}/>
+              {/* <Route path={`${process.env.PUBLIC_URL + "/home-two"}`} component={HomeTwo}/> */}
+              {/* <Route path={`${process.env.PUBLIC_URL + "/home-three"}`} component={HomeThree}/> */}
               <Route path={`${process.env.PUBLIC_URL + "/about"}`} component ={About} />
               <Route path={`${process.env.PUBLIC_URL + "/service"}`} component ={Service} />
               <Route path={`${process.env.PUBLIC_URL + "/work"}`} component ={Work} />
@@ -55,6 +57,8 @@ function App() {
               <Route path={`${process.env.PUBLIC_URL + "/tag/:slug"}`} component ={BlogTag} />
               <Route path={`${process.env.PUBLIC_URL + "/category/:slug"}`}component ={BlogCategories} />
               <Route path={`${process.env.PUBLIC_URL + "/blog-details/:id"}`}component ={BlogDetails} />
+              <Route path={`${process.env.PUBLIC_URL + "/news-details/:id"}`}component ={NewsDetails} />
+              <Route path={`${process.env.PUBLIC_URL + "/activity-details/:id"}`}component ={ActivityDetailsPage} />
               <Route path={`${process.env.PUBLIC_URL + "/contact"}`} component ={Contact} />
               <Route path={`${process.env.PUBLIC_URL + "/news"}`} component ={News} />
               <Route path={`${process.env.PUBLIC_URL + "/article"}`} component ={Article} />

@@ -3,13 +3,16 @@ import React from 'react';
 import {Link} from "react-router-dom";
 import BlogClassicData from '../../data/blog/BlogClassic.json';
 import BlogClassic from '../../components/Blog/BlogClassic.jsx';
-// import SidebarWrap from '../../components/Sidebar/SidebarWrap.jsx';
-// import SidebarWidget from '../../components/Sidebar/SidebarWidget.jsx';
+import SidebarWrap from '../../components/Sidebar/SidebarWrap.jsx';
+import SidebarWidget from '../../components/Sidebar/SidebarWidget.jsx';
 // import SidebarBanner from '../../components/Sidebar/SidebarBanner.jsx';
-// import SidebarTitle from '../../components/Sidebar/SidebarTitle';
-// import SidebarSearch from '../../components/Sidebar/SidebarSearch.jsx';
-// import SidebarCategories from '../../components/Sidebar/SidebarCategories.jsx';
-// import SidebarPost from '../../components/Sidebar/SidebarPost.jsx';
+import SidebarTitle from '../../components/Sidebar/SidebarTitle';
+import SidebarSearch from '../../components/Sidebar/SidebarSearch.jsx';
+import SidebarCategories from '../../components/Sidebar/SidebarCategories.jsx';
+import SidebarCategoriesNews from "../../components/Sidebar/SidebarCategoriesNews.jsx";
+import SidebarCategoriesActivity from "../../components/Sidebar/SidebarCategoriesActivity.jsx";
+import SidebarPost from '../../components/Sidebar/SidebarPost.jsx';
+import SidebarPostNews from "../../components/Sidebar/SidebarPostNews";
 // import SidebarTag from '../../components/Sidebar/SidebarTag.jsx';
 
 const BlogClassicContainer = () => {
@@ -19,7 +22,7 @@ const BlogClassicContainer = () => {
             <div className="container">
                 <div className="row mb-n10">
 
-                    <div className="col-lg-8 col-12 order-lg-1 mb-10">
+                    <div className="col-lg-8 col-11 order-lg-1 mb-10">
                         <div className="row row-cols-1 no-gutters">
 
                         {BlogClassicData && BlogClassicData.slice(0, 4).map((single, key) => {
@@ -50,30 +53,32 @@ const BlogClassicContainer = () => {
                             </div>
                         </div>
                     </div>
-
-                    {/* <div className="col-lg-4 col-12 order-lg-2 mb-10">
+                    <div className="col-lg-4 col-12 order-lg-2 mb-10">
                         <SidebarWrap>
                             <SidebarWidget>
                                 <SidebarSearch />
                             </SidebarWidget>
                             <SidebarWidget>
-                                <SidebarTitle title="Categories" />
+                                <SidebarTitle title="Төрөлүүд" />
                                 <SidebarCategories />
+                                <SidebarCategoriesNews />
+                                <SidebarCategoriesActivity />
                             </SidebarWidget>
                             <SidebarWidget>
                                 <SidebarTitle classOption="mb-2" title="Popular Posts" />
                                 <SidebarPost />
+                                <SidebarPostNews />
                             </SidebarWidget>
-                            <SidebarWidget>
+                            {/* <SidebarWidget>
                                 <SidebarBanner />
-                            </SidebarWidget>
-                            <SidebarWidget>
+                            </SidebarWidget> */}
+                            {/* <SidebarWidget>
                                 <SidebarTitle title="Popular tags" />
                                 <SidebarTag />
-                            </SidebarWidget>
+                            </SidebarWidget> */}
                         </SidebarWrap>
-                    </div> */}
-
+                    </div>
+                
                 </div>
             </div>
         </div>

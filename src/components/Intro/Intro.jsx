@@ -16,8 +16,8 @@ const Intro =  ({data}) => {
                             <div className="desc">
                                 <p>{data.desc}</p>
                             </div>
-                            <Link to={process.env.PUBLIC_URL + "/"} className="btn btn-primary btn-hover-secondary">Мэдээ, мэдээлэл</Link>
-                            <Link to={process.env.PUBLIC_URL + "/"} className="btn btn-outline-white btn-hover-primary"> Бидний тухай </Link>
+                            <Link to={process.env.PUBLIC_URL + "/news"} className="btn btn-primary btn-hover-secondary">Мэдээ, мэдээлэл</Link>
+                            <Link to={process.env.PUBLIC_URL + "/about"} className="btn btn-outline-white btn-hover-primary"> Бидний тухай </Link>
                         </div>
                     </div>
 

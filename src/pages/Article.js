@@ -10,11 +10,11 @@ import ScrollToTop from '../components/ScrollToTop.jsx';
 const Article = () => {
     return (
         <React.Fragment>
-            <SEO title="Exomac || Blog" />
+            <SEO title="Бид чадна || Нийтлэл" />
             <Header />
             <Breadcrumb 
-                image="images/bg/breadcrumb-bg-four.jpg"
-                title="Find all our latest news, insights, and events"
+                image="images/bg/article.jpeg"
+                title="Нийтлэл"
                 content="Home"
                 contentTwo="Blog Classic"
             />

@@ -3,13 +3,15 @@ import React from 'react';
 // import {Link} from "react-router-dom";
 import BlogDetails from '../../components/Blog/BlogDetails.jsx';
 // import Comment from '../../components/Comment/Comment.jsx';
-// import SidebarWrap from '../../components/Sidebar/SidebarWrap.jsx';
-// import SidebarWidget from '../../components/Sidebar/SidebarWidget.jsx';
+import SidebarWrap from '../../components/Sidebar/SidebarWrap.jsx';
+import SidebarWidget from '../../components/Sidebar/SidebarWidget.jsx';
 // import SidebarBanner from '../../components/Sidebar/SidebarBanner.jsx';
-// import SidebarTitle from '../../components/Sidebar/SidebarTitle';
-// import SidebarSearch from '../../components/Sidebar/SidebarSearch.jsx';
-// import SidebarCategories from '../../components/Sidebar/SidebarCategories.jsx';
-// import SidebarPost from '../../components/Sidebar/SidebarPost.jsx';
+import SidebarTitle from '../../components/Sidebar/SidebarTitle';
+import SidebarSearch from '../../components/Sidebar/SidebarSearch.jsx';
+import SidebarCategories from '../../components/Sidebar/SidebarCategories.jsx';
+import SidebarPost from '../../components/Sidebar/SidebarPost.jsx';
+import SidebarCategoriesNews from "../../components/Sidebar/SidebarCategoriesNews.jsx";
+import SidebarCategoriesActivity from "../../components/Sidebar/SidebarCategoriesActivity.jsx";
 // import SidebarTag from '../../components/Sidebar/SidebarTag.jsx';
 
 const BlogDetailsContainer = ({data}) => {
@@ -22,6 +24,7 @@ const BlogDetailsContainer = ({data}) => {
                         <div className="row row-cols-1 no-gutters">
                             
                             <BlogDetails data={data} />
+                            
                             {/* <div className="entry-author">
                                 <div className="author-info">
                                     <div className="author-avatar">
@@ -35,9 +38,9 @@ const BlogDetailsContainer = ({data}) => {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
 
-                            <div className="blog-nav-links">
+                            {/* <div className="blog-nav-links">
                                 <h4 className="title">Related Posts </h4>
                                 <div className="nav-list">
                                     <div className="nav-item prev">
@@ -58,12 +61,12 @@ const BlogDetailsContainer = ({data}) => {
                                                 <h6>Growing a startup involves balancing out the financial stack</h6>
                                             </Link>
                                         </div>
-                                    </div> */}
+                                    </div>
                                 </div>
-                            </div>
+                            </div> */}
 
-{/* 
-                            <div className="comment-form-wrap">
+
+                            {/* <div className="comment-form-wrap">
                                 <div className="comment-respond">
                                     <h3 className="title">Leave a Reply</h3>
                                     <Comment 
@@ -72,33 +75,35 @@ const BlogDetailsContainer = ({data}) => {
                                         title={data.title}
                                     />
                                 </div>
-                            </div>
+                            </div> */}
 
                         </div>
-                    </div> */}
+                    </div> 
 
-                    {/* <div className="col-lg-4 col-12 order-lg-2 mb-10">
+                    <div className="col-lg-4 col-12 order-lg-2 mb-10">
                         <SidebarWrap>
                             <SidebarWidget>
                                 <SidebarSearch />
                             </SidebarWidget>
                             <SidebarWidget>
-                                <SidebarTitle title="Categories" />
+                                <SidebarTitle title="Төрөлүүд" />
                                 <SidebarCategories />
+                                <SidebarCategoriesNews />
+                                <SidebarCategoriesActivity />
                             </SidebarWidget>
                             <SidebarWidget>
-                                <SidebarTitle classOption="mb-2" title="Popular Posts" />
+                                <SidebarTitle classOption="mb-2" title="Бусад нийтлэл" />
                                 <SidebarPost />
                             </SidebarWidget>
-                            <SidebarWidget>
+                            {/* <SidebarWidget>
                                 <SidebarBanner />
-                            </SidebarWidget>
-                            <SidebarWidget>
+                            </SidebarWidget> */}
+                            {/* <SidebarWidget>
                                 <SidebarTitle title="Popular tags" />
                                 <SidebarTag />
-                            </SidebarWidget>
+                            </SidebarWidget> */}
                         </SidebarWrap>
-                    </div> */}
+                    </div> 
 
                 </div>
             </div>

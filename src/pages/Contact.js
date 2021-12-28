@@ -4,24 +4,23 @@ import Header from "../partials/header/Header";
 import Breadcrumb from '../container/Breadcrumb/Breadcrumb';
 import ContactInformation from '../container/ContactInformation/ContactInformation';
 import GoogleMap from '../container/Map/GoogleMap';
-import ContactFromContainer from '../container/ContactFromContainer/ContactFromContainer';
+// import ContactFromContainer from '../container/ContactFromContainer/ContactFromContainer';
 import Footer from '../container/Footer/Footer';
 import ScrollToTop from '../components/ScrollToTop.jsx';
 
 const Contact = () => {
     return (
         <React.Fragment>
-            <SEO title="Exomac || Contact" />
+            <SEO title="Бид чадна || Холбоо барих" />
             <Header />
             <Breadcrumb 
-                image="images/bg/breadcrumb-bg-five.jpg"
-                title="We are an agency located in New York"
-                content="Home"
+                image="images/hero-image/about.jpeg"
+                content="Home"  
                 contentTwo="Contact Us"
             />
             <ContactInformation />
             <GoogleMap />
-            <ContactFromContainer />
+            {/* <ContactFromContainer /> */}
             <Footer />
             <ScrollToTop />
         </React.Fragment>

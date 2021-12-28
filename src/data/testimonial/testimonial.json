@@ -1,30 +1,50 @@
 [
     {
         "id": 1,
-        "image": "images/testimonial/90/author-1.png",
-        "desc": "We are completely satisfied with the quality of service that we get. Workers were respectful, efficient, accommodating, cleaned up thoroughly.",
-        "name": "Thomas Smith",
-        "position": "CEO at Flow"
+        "icon": "images/svg/linea/linea-music-bell.svg",
+        "title": "RETRO MUSIC FUNDRAISING EVENT",
+        "desc": "\"Бидний дэм\" ТББ-аас Харааны бэрхшээлтэй хүмүүсийн мэдээлэл технологийн салбарын хөгжилд хувь нэмэр оруулахаар ээлжит хөрөнгө босгох ...",
+        "pageLink": "Дэлгэрэнгүй",
+        "link": "activity"
     },
     {
         "id": 2,
-        "image": "images/testimonial/90/author-2.png",
-        "desc": "We are completely satisfied with the quality of service that we get. Workers were respectful, efficient, accommodating, cleaned up thoroughly.",
-        "name": "Eloise Smith",
-        "position": "CEO at Flow"
+        "icon": "images/svg/linea/linea-basic-picture-multiple.svg",
+        "title": "\"ҮР ЖИМС\" ЗУРГИЙН ҮЗЭСГЭЛЭНГ ҮЗЭЭРЭЙ",
+        "desc": "Хөгжлийн бэрхшээлтэй болон бэрхшээлгүй хүүхдүүд хамтдаа суралцдаг “Сайн найз” “Нөлөөлөл” зургийн дугуйлангийн 40 хүүхэд, тэдний багш ...",
+        "pageLink": "Дэлгэрэнгүй",
+        "link": "activity"
     },
     {
         "id": 3,
-        "image": "images/testimonial/90/author-3.png",
-        "desc": "I love their flexibility. Even when my request is too complicated to handle. they could still suggest something useful for me.",
-        "name": "Florence Themes",
-        "position": "/ Multimedia Admin"
+        "icon": "images/svg/linea/linea-basic-picture.svg",
+        "title": "АУТИЗМЫГ ХҮЛЭЭН ЗӨВШӨӨРЬЕ",
+        "desc": "Хүмүүс бид өөрсдөө ч мэдэлгүй хэн нэгнийг гомдооно...",
+        "pageLink": "Дэлгэрэнгүй",
+        "link": "activity"
     },
     {
-        "id": 1,
-        "image": "images/testimonial/90/author-1.png",
-        "desc": "I love their flexibility. Even when my request is too complicated to handle. they could still suggest something useful for me.",
-        "name": "Florence Themes",
-        "position": "/ Multimedia Admin"
+        "id": 4,
+        "icon": "images/svg/linea/linea-ecommerce-cart-plus.svg",
+        "title": "ӨНӨӨДӨР НӨЛӨӨЛЖ, МАРГААШ ӨӨРЧИЛЬЕ” ӨДӨРЛӨГ",
+        "desc": "Монгол Улс Хөгжлийн бэрхшээлтэй хүмүүсийн эрхийн тухай НҮБ-ын конвенцид нэгдэн орсон өдөр, “Хөгжлийн бэрхшээлийг эрт үед оношлох...",
+        "pageLink": "Дэлгэрэнгүй",
+        "link": "activity"
+    },
+    {
+        "id": 5,
+        "icon": "images/svg/linea/linea-basic-gear.svg",
+        "title": "БИД ЧАДНА – САЙН ДУРЫН IV-Р ХӨТӨЛБӨР ЗАРЛАГДЛАА",
+        "desc": "Хөгжлийн бэрхшээлтэй иргэдийн оролцоог хангасан нийгмийн загварыг бий болгоход хувь нэмэр оруулах...",
+        "pageLink": "Дэлгэрэнгүй",
+        "link": "activity"
+    },
+    {
+        "id": 6,
+        "icon": "images/svg/linea/linea-basic-display.svg",
+        "title": "ДЕМОКРЭЙЗИ КАРНАВАЛ",
+        "desc": "Карнавалыг ДемоКрейзи залуусын төвөөс зорилго, зарчим, үнэт зүйлс...",
+        "pageLink": "Дэлгэрэнгүй",
+        "link": "activity"
     }
 ]

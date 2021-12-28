@@ -1,9 +1,9 @@
 [
     {
         "id": "1",
-        "icon": "images/svg/linea/linea-basic-target.svg",
-        "title": "УРЛАГААР ДАМЖУУЛАН ӨӨРИЙГӨӨ ТАНИУЙ, ИЛЭРХИЙЛЭХҮЙ",
-        "desc": "dfjsdhfisbifbibi.",
+        "icon": "images/svg/linea/linea-music-bell.svg",
+        "title": "RETRO MUSIC FUNDRAISING EVENT",
+        "desc": "\"Бидний дэм\" ТББ-аас Харааны бэрхшээлтэй хүмүүсийн мэдээлэл технологийн салбарын хөгжилд хувь нэмэр оруулахаар ээлжит хөрөнгө босгох ...",
         "pageLink": "Дэлгэрэнгүй",
         "link": "service"
     },
@@ -11,7 +11,7 @@
         "id": "2",
         "icon": "images/svg/linea/linea-basic-picture-multiple.svg",
         "title": "\"ҮР ЖИМС\" ЗУРГИЙН ҮЗЭСГЭЛЭНГ ҮЗЭЭРЭЙ",
-        "desc": "Хүүхэд бүр тэгш эрхтэй гэдгийг ойлгуулах “Номиогийн адал явдал” комик ном гарлаа...",
+        "desc": "Хөгжлийн бэрхшээлтэй болон бэрхшээлгүй хүүхдүүд хамтдаа суралцдаг “Сайн найз” “Нөлөөлөл” зургийн дугуйлангийн 40 хүүхэд, тэдний багш ...",
         "pageLink": "Дэлгэрэнгүй",
         "link": "service"
     },
@@ -26,16 +26,16 @@
     {
         "id": "4",
         "icon": "images/svg/linea/linea-ecommerce-cart-plus.svg",
-        "title": "“ӨНӨӨДӨР НӨЛӨӨЛЖ, МАРГААШ ӨӨРЧИЛЬЕ” ӨДӨРЛӨГ",
-        "desc": "Our web design services can help rediscover your business’ image in the internet marketplace.",
+        "title": "ӨНӨӨДӨР НӨЛӨӨЛЖ, МАРГААШ ӨӨРЧИЛЬЕ” ӨДӨРЛӨГ",
+        "desc": "Монгол Улс Хөгжлийн бэрхшээлтэй хүмүүсийн эрхийн тухай НҮБ-ын конвенцид нэгдэн орсон өдөр, “Хөгжлийн бэрхшээлийг эрт үед оношлох...",
         "pageLink": "Дэлгэрэнгүй",
         "link": "service"
     },
     {
         "id": "5",
         "icon": "images/svg/linea/linea-basic-gear.svg",
-        "title": "RETRO MUSIC FUNDRAISING EVEN",
-        "desc": "Our web design services can help rediscover your business’ image in the internet marketplace.",
+        "title": "БИД ЧАДНА – САЙН ДУРЫН IV-Р ХӨТӨЛБӨР ЗАРЛАГДЛАА",
+        "desc": "Хөгжлийн бэрхшээлтэй иргэдийн оролцоог хангасан нийгмийн загварыг бий болгоход хувь нэмэр оруулах...",
         "pageLink": "Дэлгэрэнгүй",
         "link": "service"
     },
@@ -43,7 +43,7 @@
         "id": "6",
         "icon": "images/svg/linea/linea-basic-display.svg",
         "title": "ДЕМОКРЭЙЗИ КАРНАВАЛ",
-        "desc": "Our web design services can help rediscover your business’ image in the internet marketplace.",
+        "desc": "Карнавалыг ДемоКрейзи залуусын төвөөс зорилго, зарчим, үнэт зүйлс...",
         "pageLink": "Дэлгэрэнгүй",
         "link": "service"
     }

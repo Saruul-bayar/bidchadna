@@ -27,8 +27,7 @@ const ContactInformationThree = () => {
                         <div className="contact-Information mr-xl-7">
                             <SectionTitleTwo 
                                 classOption="color-light"
-                                subTitle="Innovative & cutting-edge technology"
-                                title="We use latest technologies that are proven and practical"
+                                subTitle="Бидэнтэй холбоо барих"
                             />
 
                             {contactDataTwo && contactDataTwo.map((single, key) => {

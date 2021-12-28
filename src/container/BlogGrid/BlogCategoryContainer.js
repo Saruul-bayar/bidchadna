@@ -29,7 +29,7 @@ const BlogCategoryContainer = ({data}) => {
                             ); 
                         })}
 
-
+                        
 
                         </div>
 

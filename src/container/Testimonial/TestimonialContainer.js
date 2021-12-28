@@ -16,9 +16,8 @@ const TestimonialContainer = ({ classOption }) => {
             <div className="container-fluid pl-xl-16 pl-lg-3 pl-md-3 pl-sm-3 pl-3 pr-xl-16 pr-lg-3 pr-md-3 pr-sm-3 pr-3">
                 <SectionTitle
                     headingOption="title fz-28"
-                    title="What our customers are saying about our services"
-                    subTitle="Get your company heading in the right direction with our digital
-                        marketing strategist"
+                    title="АРГА ХЭМЖЭЭ"
+                    subTitle="Хөгжлийн бэрхшээлтэй иргэдэд чиглэсэн сайн олон үйл ажилагаа, арга хэмжээнүүд зохиоогддог"
                 />
 
                 <Swiper className="testimonial-slider" data-aos="fade-up" data-aos-delay="300"

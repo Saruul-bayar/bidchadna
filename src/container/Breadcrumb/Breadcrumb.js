@@ -5,10 +5,10 @@ import React from 'react';
 const Breadcrumb = ({title,  image}) => {
     const publicUrl = process.env.PUBLIC_URL;
     return (
-        <div className="page-title-section section section-padding-top overlay-two" style={{backgroundImage: `url(${publicUrl}/${image})`}}>
+        <div className="page-title-section section section-padding-top overlay-two" style={{backgroundImage: `url(${publicUrl}/${image})`, backgroundSize: 'cover', backgroundPositionY: '30%'}}>
             <div className="page-title">
                 <div className="container">
-                    <h1 className="title">{title}</h1>
+                    <h1 className="title font-size-70px">{title}</h1>
                 </div>
             </div>
             <div className="page-breadcrumb position-static">

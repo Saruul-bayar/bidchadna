@@ -16,7 +16,7 @@ const BlogTag = ({match: {params: {slug}}}) => {
             ...blog,
             tags: blog.tags.filter(tag => slugify(tag) === slug)
         }
-    }).filter(blog => blog.tags.length > 0);
+    }).filter(blog => blog.tags.length >= 0);
     const tagTitle = data[0].tags[0]
     return (
         <React.Fragment>
