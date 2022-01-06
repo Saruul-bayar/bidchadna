@@ -1,20 +1,20 @@
 [
-    {
+  {
     "id": "1",
     "icon": "images/svg/linea/linea-basic-map.svg",
     "title": "Хаяг",
-    "info": " Хаяг: Хаяг: Монгол Улс, Улаанбаатар хот, Баянгол Дүүрэг, 7-р хороо, 4-р хороолол, 12-р байр, 220 тоот"
-    },
-    {
+    "info": " Монгол Улс, Улаанбаатар хот, Баянгол Дүүрэг, 7-р хороо, 4-р хороолол, 12-р байр, 220 тоот"
+  },
+  {
     "id": "2",
     "icon": "images/svg/linea/linea-basic-message-txt.svg",
     "title": "Утас",
     "info": "(+976) 11-365555 </br>(+976) 99741916"
-    },
-    {
+  },
+  {
     "id": "3",
     "icon": "images/svg/linea/linea-basic-mail-open-text.svg",
     "title": "И-мэйл",
     "info": " info@bidchadna.mn"
-    }
+  }
 ]

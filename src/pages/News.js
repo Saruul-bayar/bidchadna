@@ -17,8 +17,10 @@ const News = () => {
             <Breadcrumb 
                 image="images/bg/news.jpeg"
                 title="Мэдээ мэлэлэл"
-                content="Home"
-                contentTwo="Blog"
+                content="Нүүр хуудас"
+                contentTwo="Мэдээ мэдээлэл"
+                url="news"
+                
             />
             <PageNews />
             <Footer />

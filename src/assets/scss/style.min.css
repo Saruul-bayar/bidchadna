@@ -40087,6 +40087,11 @@ textarea:focus {
   margin: 0;
   color: #030f27;
 }
+.icon-box .content .image img {
+  width: 17vw;
+  height: 17vh;
+  object-fit: cover;
+}
 .icon-box .content .desc {
   margin-top: 25px;
 }
@@ -40273,7 +40278,7 @@ textarea:focus {
 }
 .agency-accordion .accordion-item .accordion-title {
   color: #030f27;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 24px;
   padding: 0;
   font-weight: 400;
@@ -40309,7 +40314,7 @@ textarea:focus {
   font-weight: 400;
   letter-spacing: 0em;
   line-height: 1.74;
-  font-size: 15px;
+  font-size: 17px;
   font-family: "Muli";
   border: 0 none;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.07);
@@ -41759,7 +41764,7 @@ textarea:focus {
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
   transform: translateX(100%);
   background-color: #748494;
-  background-image: url("../../images/bg/mobile-bg.jpg");
+  background-image: url("../../images/bg/seminar.jpeg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: top center;
@@ -41900,16 +41905,19 @@ textarea:focus {
 .site-mobile-menu > ul > li.open > .menu-toggle i {
   transform: rotateX(180deg);
 }
-.site-mobile-menu .sub-menu, .site-mobile-menu .mega-menu {
+.site-mobile-menu .sub-menu,
+.site-mobile-menu .mega-menu {
   display: none;
   margin: 14px 0;
   padding-left: 0;
   list-style: none;
 }
-.site-mobile-menu .sub-menu li, .site-mobile-menu .mega-menu li {
+.site-mobile-menu .sub-menu li,
+.site-mobile-menu .mega-menu li {
   position: relative;
 }
-.site-mobile-menu .sub-menu li > a, .site-mobile-menu .mega-menu li > a {
+.site-mobile-menu .sub-menu li > a,
+.site-mobile-menu .mega-menu li > a {
   font-size: 15px;
   font-weight: 500;
   line-height: 1.5;
@@ -41919,28 +41927,35 @@ textarea:focus {
   padding-left: 0;
   color: rgba(255, 255, 255, 0.7);
 }
-.site-mobile-menu .sub-menu li > a:hover, .site-mobile-menu .mega-menu li > a:hover {
+.site-mobile-menu .sub-menu li > a:hover,
+.site-mobile-menu .mega-menu li > a:hover {
   color: #fff;
 }
-.site-mobile-menu .sub-menu li .menu-toggle, .site-mobile-menu .mega-menu li .menu-toggle {
+.site-mobile-menu .sub-menu li .menu-toggle,
+.site-mobile-menu .mega-menu li .menu-toggle {
   top: 1px;
 }
-.site-mobile-menu .sub-menu li.open > a, .site-mobile-menu .mega-menu li.open > a {
+.site-mobile-menu .sub-menu li.open > a,
+.site-mobile-menu .mega-menu li.open > a {
   color: #fff;
 }
-.site-mobile-menu .sub-menu li.open > .menu-toggle, .site-mobile-menu .mega-menu li.open > .menu-toggle {
+.site-mobile-menu .sub-menu li.open > .menu-toggle,
+.site-mobile-menu .mega-menu li.open > .menu-toggle {
   background-color: rgba(255, 255, 255, 0.2);
 }
-.site-mobile-menu .sub-menu li.open > .menu-toggle i, .site-mobile-menu .mega-menu li.open > .menu-toggle i {
+.site-mobile-menu .sub-menu li.open > .menu-toggle i,
+.site-mobile-menu .mega-menu li.open > .menu-toggle i {
   transform: rotateX(180deg);
 }
-.site-mobile-menu .sub-menu ul, .site-mobile-menu .mega-menu ul {
+.site-mobile-menu .sub-menu ul,
+.site-mobile-menu .mega-menu ul {
   list-style: none;
   margin: 0;
   padding-left: 0;
   list-style: none;
 }
-.site-mobile-menu .sub-menu ul li a .badge, .site-mobile-menu .mega-menu ul li a .badge {
+.site-mobile-menu .sub-menu ul li a .badge,
+.site-mobile-menu .mega-menu ul li a .badge {
   background-color: transparent;
   background-image: linear-gradient(45deg, #fe378c 0%, #fe5b34 100%);
   display: inline-block;
@@ -41954,11 +41969,13 @@ textarea:focus {
   letter-spacing: 0.5px;
   margin: 0 0 0 7px;
 }
-.site-mobile-menu .sub-menu ul li a .badge.primary, .site-mobile-menu .mega-menu ul li a .badge.primary {
+.site-mobile-menu .sub-menu ul li a .badge.primary,
+.site-mobile-menu .mega-menu ul li a .badge.primary {
   background-image: none;
   background-color: #1292ee !important;
 }
-.site-mobile-menu .sub-menu .sub-menu, .site-mobile-menu .mega-menu .sub-menu {
+.site-mobile-menu .sub-menu .sub-menu,
+.site-mobile-menu .mega-menu .sub-menu {
   padding-left: 15px;
 }
 
@@ -43101,8 +43118,6 @@ textarea:focus {
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
   justify-content: center;
   align-items: center;
-  width: 350px;
-  height: 200px;
 }
 @media only screen and (max-width: 767px) {
   .contact-info {
@@ -43393,7 +43408,8 @@ textarea:focus {
 .blog .thumbnail .image img {
   width: 100%;
   transition: all 1.5s cubic-bezier(0, 0, 0.2, 1);
-  max-height: 300px;
+  height: 27vh;
+  object-fit: cover;
 }
 .blog .info {
   position: relative;
@@ -43897,7 +43913,7 @@ textarea:focus {
   list-style: none;
 }
 .sidebar-widget-cate-list li + li {
-  border-top: 1px solid #EEEEEE;
+  border-top: 1px solid #eeeeee;
 }
 .sidebar-widget-cate-list li a {
   font-size: px;
@@ -43919,7 +43935,7 @@ textarea:focus {
   padding: 16px 0 15px 0px;
 }
 .sidebar-widget-list-post li + li {
-  border-top: 1px solid #EEEEEE;
+  border-top: 1px solid #eeeeee;
 }
 .sidebar-widget-list-post li a {
   font-size: 20px;
@@ -43955,7 +43971,7 @@ textarea:focus {
   color: #1292ee;
   border: 0;
   border-radius: 3px;
-  background: #F5F5F5;
+  background: #f5f5f5;
 }
 .tagcloud a:hover {
   color: #fff;
@@ -44003,7 +44019,7 @@ textarea:focus {
 }
 
 .footer-widget-content {
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 500;
   color: #748494;
 }
@@ -44026,7 +44042,7 @@ textarea:focus {
   padding-right: 20px;
 }
 .footer-widget-content ul li a {
-  font-size: 20px;
+  font-size: 17px;
   line-height: 30px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -44067,9 +44083,13 @@ textarea:focus {
   color: #748494;
 }
 .footer-social-inline a i {
-  font-size: 24px;
+  font-size: 22px;
   line-height: 1;
   display: block;
+}
+.footer-social-inline a i span {
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
 }
 .footer-social-inline a:hover {
   color: #1292ee;
@@ -44079,11 +44099,11 @@ textarea:focus {
 /*  12. Footer CSS
 /*----------------------------------------*/
 .footer-bg-color {
-  background-color: #0A1A2E;
+  background-color: #0a1a2e;
 }
 
 .footer-section {
-  padding: 40px 0 0px;
+  padding: 100px 0 0px;
   overflow: hidden;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {

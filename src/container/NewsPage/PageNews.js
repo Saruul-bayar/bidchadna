@@ -1,43 +1,56 @@
-import React from 'react';
-import {Link} from "react-router-dom";
-import NewsData from '../../data/News/NewsData.json';
-// import BlogItem from '../../components/Blog/BlogItem';
-import NewsItem from '../../components/NewsItem/NewsItem';
+import React from "react";
+import { useState } from "react";
+// import { Link } from "react-router-dom";
+import NewsData from "../../data/News/NewsData.json";
+import NewsItem from "../../components/NewsItem/NewsItem";
+import ReactPaginate from "react-paginate";
 
 const PageNews = () => {
-    return (
-        <div className="section section-padding fix">
-            <div className="container">
+  const [news] = useState(NewsData.slice(0, 30));
+  const [pageNumber, setPageNumber] = useState(0);
 
-                <div className="row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 mb-n6">
-                    {NewsData && NewsData.map((single, key) => {
-                            return(
-                                <div key={key} className="col mb-6" data-aos="fade-up">
-                                    <NewsItem data={single} key={key} />
-                                </div>
-                            ); 
-                    })}
-                </div>
+  const newsPerPage = 9;
+  const pagesVisited = newsPerPage * pageNumber;
 
-                <div className="row mt-10">
-                    <div className="col">
-
-                        <ul className="pagination center">
-                            <li><Link to={process.env.PUBLIC_URL + "/"} className="prev"><i className="fal fa-angle-left"></i></Link></li>
-                            <li><Link to={process.env.PUBLIC_URL + "/"} className="active">1</Link></li>
-                            <li><Link to={process.env.PUBLIC_URL + "/"}>2</Link></li>
-                            <li><Link to={process.env.PUBLIC_URL + "/"}>3</Link></li>
-                            <li><span className="page-numbers dots"><i className="fal fa-ellipsis-h"></i></span></li>
-                            <li><Link to={process.env.PUBLIC_URL + "/"}>5</Link></li>
-                            <li><Link to={process.env.PUBLIC_URL + "/"} className="next"><i className="fal fa-angle-right"></i></Link></li>
-                        </ul>
-
-                    </div>
-                </div>
-
-            </div>
+  const displayNews = news
+    .slice(pagesVisited, pagesVisited + newsPerPage)
+    .map((news, key) => {
+      return (
+        <div key={key} className="col mb-6" data-aos="fade-up">
+          <NewsItem data={news} key={key} />
         </div>
-    )
-}
+      );
+    });
+
+  const pageCount = Math.ceil(news.length / newsPerPage);
+  const changePage = ({ selected }) => {
+    setPageNumber(selected);
+  };
+  return (
+    <div className="section section-padding fix">
+      <div className="container">
+        <div className="row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 mb-n6">
+          {displayNews}
+        </div>
+      </div>
+      <div className="row mt-10">
+        <div className="col">
+          <ReactPaginate
+            previousLabel={"<"}
+            breakLabel={"..."}
+            nextLabel={">"}
+            pageCount={pageCount}
+            onPageChange={changePage}
+            marginPagesDisplayed={3}
+            containerClassName={"pagination center"}
+            pageClassName={"page-item"}
+            pageLinkClassName={"page-link"}
+            activeClassName={"active"}
+          />
+        </div>
+      </div>
+    </div>
+  );
+};
 
 export default PageNews;

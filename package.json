@@ -2,12 +2,15 @@
   "name": "exomac",
   "version": "0.1.0",
   "private": true,
+  "proxy": "https://news-data-bidchadna.herokuapp.com",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.8",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.6.0",
     "aos": "^2.3.4",
+    "axios": "^0.24.0",
     "bootstrap": "^4.6.1",
+    "cors": "^2.8.5",
     "disqus-react": "^1.0.11",
     "force": "0.0.3",
     "imagesloaded": "^4.1.4",
@@ -21,6 +24,7 @@
     "react-isotope": "^1.0.7",
     "react-mailchimp-subscribe": "^2.1.0",
     "react-modal-video": "^1.2.6",
+    "react-paginate": "^8.1.0",
     "react-parallax-tilt": "^1.4.89",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^4.0.3",
@@ -62,6 +66,7 @@
   "devDependencies": {
     "eslint": "^7.20.0",
     "eslint-plugin-react": "^7.22.0",
+    "http-proxy-middleware": "^2.0.1",
     "node-sass": "^4.14.1",
     "npm-run-all": "^4.1.5",
     "webpack-cli": "^4.9.1"

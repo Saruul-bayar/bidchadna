@@ -2,28 +2,28 @@
 /*  12. Footer CSS
 /*----------------------------------------*/
 
-.footer-bg-color{
-    background-color: #0A1A2E;
+.footer-bg-color {
+  background-color: #0a1a2e;
 }
 
 .footer-section {
-    padding: 40px 0 0px;
-    overflow: hidden;
-    // Responsive
-    @media #{$tablet-device}{
-        padding: 80px 0 0px;
-    }
-    @media #{$large-mobile}{
-        padding: 60px 0 0px;
-    }
+  padding: 100px 0 0px;
+  overflow: hidden;
+  // Responsive
+  @media #{$tablet-device} {
+    padding: 80px 0 0px;
+  }
+  @media #{$large-mobile} {
+    padding: 60px 0 0px;
+  }
 }
 
 .copyright {
-    font-size: 14px;
-    line-height: 25px;
-    text-align: center;
-    padding: 20px 15px;
-    border-top: 1px solid $gray-200;
-    color: $white;
-    margin-bottom: 0;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: center;
+  padding: 20px 15px;
+  border-top: 1px solid $gray-200;
+  color: $white;
+  margin-bottom: 0;
 }

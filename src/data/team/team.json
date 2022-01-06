@@ -1,26 +1,26 @@
 [
-    {
-        "id": 1,
-        "image": "images/team/jargalsaikhan.jpg",
-        "name": "Жаргалсайхан",
-        "designation": "Project manager"
-    },
-    {
-        "id": 2,
-        "image": "images/team/batchimeg.jpg",
-        "name": "Батчимэг",
-        "designation": "Marketing"
-    },
-    {
-        "id": 3,
-        "image": "images/team/otgontuya.jpg",
-        "name": "Отгонтуяа",
-        "designation": "Financial Services"
-    },
-    {
-        "id": 4,
-        "image": "images/team/mend-orshikh.jpg",
-        "name": "А.Мэнд-Орших",
-        "designation": "Project manager"
-    }
+  {
+    "id": 1,
+    "image": "images/team/jargalsaikhan.jpg",
+    "name": "Жаргалсайхан",
+    "designation": "Цахим хуудас төслийн удирдагч "
+  },
+  {
+    "id": 2,
+    "image": "images/team/batchimeg.jpg",
+    "name": "Батчимэг",
+    "designation": "ТББ-ын УЗ-ийн гишүүн"
+  },
+  {
+    "id": 3,
+    "image": "images/team/otgontuya.jpg",
+    "name": "Отгонтуяа",
+    "designation": "Гүйцэтгэх захирал."
+  },
+  {
+    "id": 4,
+    "image": "images/team/mend-orshikh.jpg",
+    "name": "А.Мэнд-Орших",
+    "designation": "ТУЗ-н дарга"
+  }
 ]

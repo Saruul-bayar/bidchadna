@@ -4,9 +4,10 @@ import Header from "../partials/header/Header";
 import Breadcrumb from '../container/Breadcrumb/Breadcrumb';
 // import Video from '../container/Video/Video';
 import AboutFive from '../container/About/AboutFive';
-import Footer from '../container/Footer/Footer';
-import ScrollToTop from '../components/ScrollToTop.jsx';
+import Video from '../container/Video/Video';
 import AboutDetails from '../components/About/AboutDetails'
+import ScrollToTop from '../components/ScrollToTop.jsx';
+import Footer from '../container/Footer/Footer';
 
 
 
@@ -20,10 +21,12 @@ const AboutUs = () => {
             <Breadcrumb 
                 image="images/about/about_3.jpeg"
                 title="Бидний тухай"
-                content="Home"
-                contentTwo="Blog"
+                content="Нүүр хуудас"
+                contentTwo="Бидний тухай"
+                url="about"
             />
             <AboutFive />
+            <Video />
             <AboutDetails />
             <Footer />
             <ScrollToTop />

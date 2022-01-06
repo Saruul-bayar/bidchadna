@@ -15,8 +15,11 @@ const Contact = () => {
             <Header />
             <Breadcrumb 
                 image="images/hero-image/about.jpeg"
-                content="Home"  
-                contentTwo="Contact Us"
+                title="Холбоо барих"
+                content="Нүүр хуудас"
+                contentTwo="Холбоо барих"
+                url="contact"
+
             />
             <ContactInformation />
             <GoogleMap />

@@ -1,25 +1,58 @@
-import React from 'react';
-import Accordion, { AccordionItem, AccordionTitle, AccordionContent } from "../Accordion";
+import React from "react";
+import Accordion, {
+  AccordionItem,
+  AccordionTitle,
+  AccordionContent,
+} from "../Accordion";
 
 const AccordionWrap = () => {
-    return (
-        <div className="agency-accordion max-mb-n30">
-            <Accordion>
-                <AccordionItem id="one">
-                    <AccordionTitle id="one">What exactly is branding?</AccordionTitle>
-                    <AccordionContent id="one">Branding is more than a logo and a clever tagline. Your brand tells the story of your company. It’s your message and your values. When that happens, remarkable things occur.</AccordionContent>
-                </AccordionItem>
-                <AccordionItem id="two">
-                    <AccordionTitle id="two">What’s the branding process like?</AccordionTitle>
-                    <AccordionContent id="two">Branding is more than a logo and a clever tagline. Your brand tells the story of your company. It’s your message and your values. When that happens, remarkable things occur.</AccordionContent>
-                </AccordionItem>
-                <AccordionItem id="three">
-                    <AccordionTitle id="three">What type of creative services do you offer?</AccordionTitle>
-                    <AccordionContent id="three">Branding is more than a logo and a clever tagline. Your brand tells the story of your company. It’s your message and your values. When that happens, remarkable things occur.</AccordionContent>
-                </AccordionItem>
-            </Accordion>
-        </div>
-    )
-}
+  return (
+    <div className="agency-accordion  col-lg-7 max-mb-n30">
+      <Accordion>
+        <AccordionItem id="one">
+          <AccordionTitle id="one">
+            ХӨТӨЛБӨРТ ХЭН ХАМРАГДАЖ БОЛОХ ВЭ?
+          </AccordionTitle>
+          <AccordionContent id="one">
+            Хөтөлбөр нь их дээд сургуулийн оюутнуудын дунд нээлттэй. Бид
+            ирээдүйн манлайлагчид бэлтгэхэд хувь нэмрээ оруулах зорилготой тул
+            англи хэлний өндөр мэдлэгтэй, цаашид гадаадын их дээд сургуулиудад
+            суралцах эсвэл өөрийн суралцаж буй салбартаа цаашид үнэтэй хувь
+            нэмрээ оруулж ажиллах чин эрмэлзлэлтэй оюутан залуусыг сонгон
+            шалгаруулж хөтөлбөртөө оролцуулахыг зорьдог. Хөтөлбөрт мөн дээрх
+            шалгуурыг хангасан хөгжлийн бэрхшээлтэй оюутан залуусыг хамруулдаг.
+          </AccordionContent>
+        </AccordionItem>
+        <AccordionItem id="two">
+          <AccordionTitle id="two">
+            ХӨТӨЛБӨРТ ОРОЛЦОХОД ЦАГАА ХЭРХЭН ЗОХИЦУУЛАХ ВЭ?
+          </AccordionTitle>
+          <AccordionContent id="two">
+            Манлайлагчдын уулзалт сургалт нь, харилцан яриа чөлөөт хэлбэрээр
+            явагддаг бөгөөд энэ нь долоо хоногт нэг удаа бямба гаригт гурван
+            цагаар үргэлжилдэг. Хөтөлбөрийн чухал нэг хэсэг нь багаар
+            хэрэгжүүлэх нийгмийн төслөөс бүрддэг тул оролцогчид өөрсдийн цагаа
+            зохицуулан идэвхтэй оролцох шаардлагатай.
+          </AccordionContent>
+        </AccordionItem>
+        <AccordionItem id="three">
+          <AccordionTitle id="three">
+            ОРОЛЦОГЧДЫГ ХЭРХЭН СОНГОДОГ ВЭ?
+          </AccordionTitle>
+          <AccordionContent id="three">
+            Хөтөлбөрт оролцогчдыг хоёр үе шаттайгаар шалгаруулна. Нэгдүгээр
+            шатанд шалгарсан оролцогчдыг ярилцлаганд урьж оролцуулдаг. Онлайн
+            шалгаруулалтын маягтыг Бид чадна.мн дээр фэйсбүүк хуудсан дээр
+            хөтөлбөр эхлэхээс 14 хоногийн өмнө зарлана.Нэгдүгээр шатанд ирүүлсэн
+            онлайн өргөдөлтэй комиссын гишүүд нэг бүрчлэн танилцана. Үүнээс
+            хөтөлбөрт хамрагдах эрмэлзэл, хөтөлбөрөөс суралцах чадавх зэргийг
+            үнэлэн хоёрдугаар шат буюу ярилцлагаар хөтөлбөрт оролцох 20-25
+            оролцогчийг шалгаруулна.
+          </AccordionContent>
+        </AccordionItem>
+      </Accordion>
+    </div>
+  );
+};
 
 export default AccordionWrap;

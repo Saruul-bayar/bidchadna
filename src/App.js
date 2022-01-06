@@ -65,8 +65,6 @@ function App() {
               <Route path={`${process.env.PUBLIC_URL + "/activity"}`} component ={Activity} />
 
               <Route path={`${process.env.PUBLIC_URL + "/volunteer"}`} component ={Volunteer} />
-
-
               {/* <Route component ={NotFound} /> */}
             </Switch>
           </NavScrollTop>
